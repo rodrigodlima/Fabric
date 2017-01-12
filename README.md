@@ -20,8 +20,3 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 and press enter/return key. Wait for the command to finish.
 Run:
 $ brew install fabric
-
-
-# Example to execute fab function from a file list. First, read pass the function read_hosts to read the file and after pass the function that you want to execute
-
-cat servers-centos7.txt |fab read_hosts host_type -P
