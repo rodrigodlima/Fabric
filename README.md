@@ -20,3 +20,12 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 and press enter/return key. Wait for the command to finish.
 Run:
 $ brew install fabric
+
+To install Fabric on Ubuntu/Debian:
+
+$ sudo apt-get install fabric
+
+
+If you already have a Python-pip package on your system, you can install Fabric from pip command:
+
+$ pip install fabric
